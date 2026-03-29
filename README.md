@@ -8,7 +8,14 @@ Privacy is not a crime, protect yourself. Privacy matters. Privacy is what allow
 
 ### Blocklists
 
-- Strong android tv blocklist: `https://raw.githubusercontent.com/kozmixb/dns-blocklist/refs/heads/main/adblock/android-tv.txt`
+Blocklists can be added to AdguardHome
+
+Filters -> DNS Blocklists -> Add blocklist
+
+- Strong android tv blocklist
+  ```
+  https://raw.githubusercontent.com/kozmixb/dns-blocklist/refs/heads/main/adblock/android-tv.txt
+  ```
 
 ### :warning: Disclaimer
 
