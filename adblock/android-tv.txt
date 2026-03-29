@@ -6,12 +6,14 @@
 ! Homepage: https://github.com/kozmixb/dns-blocklists
 ! Disclaimer: https://github.com/kozmixb/dns-blocklists/blob/main/README.md#disclaimer
 ! License: https://github.com/kozmixb/dns-blocklists/blob/main/LICENSE
-! Last modified: 2026-03-29T14:44:54.657Z
-! Version: 2026.0329.1
+! Last modified: 2026-03-29T16:50:54.657Z
+! Version: 2026.0329.2
 ! Syntax: AdBlock
 ! All block tagged with $ctag=device_tv
 !
 ||*^$ctag=device_tv
+@@|connectivitycheck.gstatic.com^$ctag=device_tv
+@@|time.android.com^$ctag=device_tv
 @@||youtube.com^$ctag=device_tv
 @@||googlevideo.com^$ctag=device_tv
 @@||ytimg.com^$ctag=device_tv
@@ -20,4 +22,3 @@
 @@||nflxvideo.net^$ctag=device_tv
 @@||nflxext.com^$ctag=device_tv
 @@||nflxso.net^$ctag=device_tv
-@@||time.android.com^$ctag=device_tv
